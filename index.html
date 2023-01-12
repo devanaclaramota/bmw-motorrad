@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone | BMW Motorrad</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--PARA GERAR ELEMENTOS ANIMADOS COM TRANSIÇÃO EM TELA PRECISO USAR O VISIBILITY E PARA ISSO O MENU QUE APARECE DEVE ESTAR NUMA PAGINA SO DELE, PARA QUE ELE FIQUE HIDDEN E NAO OCUPE O ESPACO DOS OUTROS ELEMENTOS NA TELA -->
+    <header>
+  <section class="head">
+      
+                <nav>
+                    <ul>
+                        <div>
+                            <li><a class="openNav" href="#"> <i class="bi bi-list"></i> Menu</a></li>
+      
+                        </div>
+                        <div>
+                            <li><a href="#"><i class="bi bi-search"></i></a></li>
+                        </div>
+                        <div>
+                            <li><a href="#"> <i class="bi bi-geo-alt"></i> Procurar concessionário</a></li>
+                        </div>
+                        <div>
+                            <li><a href="#"> <i class="bi bi-person-fill"></i> Login</a></li>
+                        </div>
+                    </ul>
+      
+                </nav>
+                 <img src="images/logo-bmw-motorrad.svg" alt="Logo-bmw Motorrad">
+  </section>
+    
+    <section  class="menu">
+            <div class="cabecalho">
+                 <span><a href=""><i class="bi bi-x-lg"></i> CLOSE</a></span>
+                 <input placeholder="Sua pesquisa"  type="text">
+                 <a class="search" href="#"><i class="bi bi-search"></i></a>
+                 <img src="images/logo-bmw-motorrad.svg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Motos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Mundo BMW Motorrad</a></li>
+                    <li><a href="#">Pós vendas</a></li>
+                    <li><a href="#">Alerta de fraude</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <ul>
+                    <li><a href="#"> <i class="bi bi-ui-checks-grid"></i> Visao geral</a></li>
+                    <li><a href="#"> <i class="bi bi-geo-alt"></i> Procurar concessionário</a></li>
+                    <li><a href="#"> <i class="bi bi-calendar-date"></i> Eventos</a></li>
+                    <li><a href="#"> <i class="bi bi-book"></i> Histórias</a></li>
+                    <li><a href="#"> <i class="bi bi-images"></i> News gallery</a></li>
+                    <span>MAKE LIFE A RIDE</span>
+                </ul>
+            </footer>
+    </section>
+
+</header>
+<section class="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="images/slide1-edit.jpg" class="d-block w-100" alt="...">
+            <div id="slide1"  class="carousel-caption">
+              <h2>CONDIÇÕES ESPECIAIS.</h2>
+              <p>ESCOLHA A BMW QUE MAIS COMBINA COM VOCÊ.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cut-310.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/bmw-track-cut.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/bmw-fabrica-cut.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<section class="tab-menu">
+  <div class="tab-menu-bars">
+    <ul>
+      <li onclick="openTab('item-1')">Todos</li>
+      <li onclick="openTab('item-2')">Adventure</li>
+      <li onclick="openTab('item-3')">Tour</li>
+    </ul>
+  </div>
+  <div id="item-1"  class="tab-menu-album">
+    <div class="tab-menu-album-item">
+      <img src="images/motos-3.jpeg" alt="">
+      <div  class="mais ativar">
+        <h5>BMW MOTORRAD PREMIUM</h5>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+    <div  class="tab-menu-album-item">
+      <img src="images/motos-3.jpeg" alt="">
+    </div>
+    <div  class="tab-menu-album-item">
+      <img src="images/motos-3.jpeg" alt="">
+    </div>
+    <div  class="tab-menu-album-item">
+      <img src="images/motos-3.jpeg" alt="">
+    </div>
+
+    
+  </div>
+  <!--segunda aba menu-->
+  <div id="item-2" class="tab-menu-album">
+    <div class="tab-menu-album-item">
+      <img src="images/motos-2.jpeg" alt="">
+    </div>
+    <div class="tab-menu-album-item">
+      <img src="images/motos-2.jpeg" alt="">
+    </div>
+    <div class="tab-menu-album-item">
+      <img src="images/motos-2.jpeg" alt="">
+    </div>
+    <div class="tab-menu-album-item">
+      <img src="images/motos-2.jpeg" alt="">
+    </div>
+
+    
+  </div>
+  <!--terceira aba menu-->
+  <div id="item-3" class="tab-menu-album">
+    <div class="tab-menu-album-item">
+      <img src="images/motos-9.jpeg" alt="">
+     
+    </div>
+    <div class="tab-menu-album-item">
+      <img src="images/motos-9.jpeg" alt="">
+    </div>
+    <div class="tab-menu-album-item">
+      <img src="images/motos-9.jpeg" alt="">
+    </div>
+    <div class="tab-menu-album-item">
+      <img src="images/motos-9.jpeg" alt="">
+    </div>
+
+    
+  </div>
+  <footer>
+
+    <div >
+      <h6>Registre-se e fique por dentro do universo BMW</h6>
+      <button>Atualize seu cadastro</button>
+    </div>
+    <div class="links">
+      <ul>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer"></a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer"></a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer"></a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+        </li>
+        <li>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+        </li>
+
+      </ul>
+    </div>
+  </footer>
+  
+</section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
