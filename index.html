@@ -7,12 +7,12 @@
     <title>Clone | BMW Motorrad</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
     <!--PARA GERAR ELEMENTOS ANIMADOS COM TRANSIÇÃO EM TELA PRECISO USAR O VISIBILITY E PARA ISSO O MENU QUE APARECE DEVE ESTAR NUMA PAGINA SO DELE, PARA QUE ELE FIQUE HIDDEN E NAO OCUPE O ESPACO DOS OUTROS ELEMENTOS NA TELA -->
-    <header>
+  <header>
   <section class="head">
       
                 <nav>
@@ -66,6 +66,7 @@
     </section>
 
 </header>
+
 <section class="carousel">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
@@ -116,6 +117,8 @@
         </button>
       </div>
 </section>
+
+
 <section class="tab-menu">
   <div class="tab-menu-bars">
     <ul>
@@ -124,13 +127,15 @@
       <li onclick="openTab('item-3')">Tour</li>
     </ul>
   </div>
+
   <div id="item-1"  class="tab-menu-album">
+
     <div class="tab-menu-album-item">
       <img src="images/motos-3.jpeg" alt="">
-      <div  class="mais ativar">
+     <!--<div  class="mais ativar">
         <h5>BMW MOTORRAD PREMIUM</h5>
         <button>Saiba mais</button>
-      </div>
+      </div>--> 
     </div>
     <div  class="tab-menu-album-item">
       <img src="images/motos-3.jpeg" alt="">
@@ -158,8 +163,6 @@
     <div class="tab-menu-album-item">
       <img src="images/motos-2.jpeg" alt="">
     </div>
-
-    
   </div>
   <!--terceira aba menu-->
   <div id="item-3" class="tab-menu-album">
@@ -176,14 +179,14 @@
     <div class="tab-menu-album-item">
       <img src="images/motos-9.jpeg" alt="">
     </div>
-
     
   </div>
+</section>
   <footer>
 
     <div >
       <h6>Registre-se e fique por dentro do universo BMW</h6>
-      <button>Atualize seu cadastro</button>
+      <button> <i class="bi bi-envelope-check"></i> Atualize seu cadastro</button>
     </div>
     <div class="links">
       <ul>
@@ -200,31 +203,37 @@
           <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
         </li>
         <li>
-          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">Simule seu financiamento</a>
         </li>
         <li>
-          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">MINI</a>
         </li>
         <li>
-          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Group</a>
         </li>
         <li>
-          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Serviços Financeiros</a>
         </li>
         <li>
-          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">Solicite uma proposta</a>
         </li>
         <li>
-          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">BMW Experience</a>
+          <a href="https://www.bmwriderexperience.com.br/" target="_blank" rel="noopener noreferrer">Visite a fábrica</a>
         </li>
 
       </ul>
     </div>
+   
   </footer>
-  
-</section>
+   <div class="directs">
+      
+      <P>
+        <strong>  BMW AG 2023</strong> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut provident explicabo quos reiciendis molestias quisquam sit maxime nemo libero nihil sint doloremque quasi hic repellat rem, a quo ducimus?
+      </P>
+      <span class="ride">MAKE LIFE A RIDE</span>
+    </div>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </body>

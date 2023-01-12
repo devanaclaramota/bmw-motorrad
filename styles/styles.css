@@ -115,13 +115,14 @@ header .menu img {
 }
 .tab-menu-album {
   margin: auto;
-  width: 70%;
+  width: 90%;
   display: none;
   background-color: #212326;
 }
 .tab-menu-album-item {
   display: inline-block;
-  padding: 24px;
+  padding: 30px;
+  margin-left: 120px;
 }
 .tab-menu-album-item img {
   width: 450px;
@@ -156,6 +157,7 @@ footer {
 }
 footer div h6 {
   color: #212326;
+  font-size: 1.6em;
 }
 footer div button {
   padding: 10px;
@@ -166,6 +168,9 @@ footer div button:hover {
   background-color: #212326;
   color: lightgray;
 }
+footer div button i {
+  font-size: 1.5em;
+}
 footer .links li {
   list-style: none;
 }
@@ -174,5 +179,25 @@ footer .links a {
   color: #444547;
 }
 footer .links a:hover {
-  color: #212326;
+  color: black;
+  font-weight: bolder;
+}
+
+.directs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.directs p {
+  color: rgba(211, 211, 211, 0.597);
+  max-width: 400px;
+  padding: 20px;
+}
+.directs span {
+  color: lightgray;
+  border-bottom: 5px solid lightgray;
+}
+
+body {
+  background-color: black;
 }/*# sourceMappingURL=styles.css.map */

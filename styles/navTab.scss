@@ -1,0 +1,66 @@
+.tab-menu{
+        background-color: black;
+    &-bars{
+
+        background-color: #212326;
+       
+        padding: 12px;
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li{
+                list-style: none;
+                color: white;
+                padding: 16px;
+                font-size: 1.2em;
+                cursor: pointer;
+                &:hover{
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+    &-album{
+        margin: auto;
+        width: 90%;
+        display: none;
+        background-color: #212326;
+        
+       
+       &-item{
+        display: inline-block;
+        padding: 30px;
+        margin-left: 120px;
+        
+        img{
+          width: 450px;
+        }
+        .mais{
+            background-color: lightgray;
+            border-bottom: 6px solid gray;
+            margin: 16px;
+            &:hover{
+                    border-bottom: 6px solid blue;
+                }
+
+            h5{
+                padding: 10px;
+                font-weight: bold;
+            }
+            button{
+                border-radius: 8px;
+                padding: 6px;
+                margin: 16px;
+                
+            }
+            
+        }
+       }
+    }
+     #item-1{
+            display: block;
+        }
+}

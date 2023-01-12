@@ -1,0 +1,49 @@
+footer {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-top: 45px;
+}
+footer div h6 {
+  color: #212326;
+  font-size: 1.6em;
+}
+footer div button {
+  padding: 10px;
+  background-color: lightgray;
+  font-weight: bold;
+}
+footer div button:hover {
+  background-color: #212326;
+  color: lightgray;
+}
+footer div button i {
+  font-size: 1.5em;
+}
+footer .links li {
+  list-style: none;
+}
+footer .links a {
+  text-decoration: none;
+  color: #444547;
+}
+footer .links a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.directs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.directs p {
+  color: rgba(211, 211, 211, 0.597);
+  max-width: 400px;
+  padding: 20px;
+}
+.directs span {
+  color: lightgray;
+  border-bottom: 5px solid lightgray;
+}/*# sourceMappingURL=footer.css.map */
