@@ -12,6 +12,7 @@
                content[i].style.display = 'none'
           }
           document.getElementById(idtab).style.display = 'block';
+          
 
 
      }

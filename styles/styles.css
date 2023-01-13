@@ -123,6 +123,7 @@ header .menu img {
   display: inline-block;
   padding: 30px;
   margin-left: 120px;
+  position: relative;
 }
 .tab-menu-album-item img {
   width: 450px;
@@ -130,19 +131,24 @@ header .menu img {
 .tab-menu-album-item .mais {
   background-color: lightgray;
   border-bottom: 6px solid gray;
-  margin: 16px;
+  width: 88.2%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
 }
 .tab-menu-album-item .mais:hover {
   border-bottom: 6px solid blue;
+  height: 80px;
+  transition: 0.3s;
 }
-.tab-menu-album-item .mais h5 {
+.tab-menu-album-item .mais span {
   padding: 10px;
   font-weight: bold;
 }
 .tab-menu-album-item .mais button {
   border-radius: 8px;
   padding: 6px;
-  margin: 16px;
+  margin: 8px;
 }
 .tab-menu #item-1 {
   display: block;
