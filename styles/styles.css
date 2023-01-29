@@ -6,7 +6,7 @@
 }
 
 header .head {
-  background-color: rgb(216, 216, 216);
+  background-color: #d8d8d8;
   display: flex;
   align-items: center;
 }
@@ -29,7 +29,7 @@ header .head img {
   right: 16px;
 }
 header .menu {
-  background-color: white;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   width: 100%;
@@ -43,11 +43,11 @@ header .menu .cabecalho {
   padding: 24px;
 }
 header .menu .cabecalho a {
-  color: black;
+  color: #000000;
   padding-right: 80px;
 }
 header .menu .cabecalho input {
-  background-color: lightgray;
+  background-color: #d8d8d8;
   border: none;
   padding: 4px;
 }
@@ -63,7 +63,7 @@ header .menu ul li {
 }
 header .menu ul li a {
   padding: 12px;
-  color: black;
+  color: #000000;
   font-size: 20px;
   text-decoration: none;
 }
@@ -126,29 +126,25 @@ header .menu img {
   position: relative;
 }
 .tab-menu-album-item img {
-  width: 450px;
+  width: 348px;
 }
 .tab-menu-album-item .mais {
   background-color: lightgray;
   border-bottom: 6px solid gray;
-  width: 88.2%;
-  height: 60px;
   position: absolute;
   bottom: 0;
 }
 .tab-menu-album-item .mais:hover {
   border-bottom: 6px solid blue;
-  height: 80px;
-  transition: 0.3s;
 }
-.tab-menu-album-item .mais span {
+.tab-menu-album-item .mais h5 {
   padding: 10px;
   font-weight: bold;
 }
 .tab-menu-album-item .mais button {
   border-radius: 8px;
   padding: 6px;
-  margin: 8px;
+  margin: 16px;
 }
 .tab-menu #item-1 {
   display: block;
@@ -195,15 +191,25 @@ footer .links a:hover {
   justify-content: space-around;
 }
 .directs p {
-  color: rgba(211, 211, 211, 0.597);
+  color: #c0c0c0;
   max-width: 400px;
   padding: 20px;
 }
 .directs span {
-  color: lightgray;
+  color: #d8d8d8;
   border-bottom: 5px solid lightgray;
 }
 
-body {
-  background-color: black;
+@media (max-width: 767px) {
+  body {
+    background-color: black;
+  }
+  .mobile-hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .tab-menu-album-item {
+    width: 100%;
+    margin-left: auto;
+  }
 }/*# sourceMappingURL=styles.css.map */
